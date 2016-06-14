@@ -15,13 +15,13 @@ public class NgWebTest {
         driver.close();
     }
 
-
-    @Test (priority = 4)
-    public void verifyTitle(){
-     String epxTitle = "Google";
-       Assert.assertEquals(epxTitle,driver.getTitle());
-
-    }
+//
+//    @Test (priority = 4)
+//    public void verifyTitle(){
+//     String epxTitle = "Google";
+//       Assert.assertEquals(epxTitle,driver.getTitle());
+//
+//    }
 
     @Test(priority = 2)
     public void testMethodOne() {
